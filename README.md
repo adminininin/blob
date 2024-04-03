@@ -18,7 +18,7 @@ Description:
 computer Laboratory Management System v1.0 is vulnerable to sql injection via /classes/Users.php
 The parameter “id” has not been handled correctly. Hackers can exploit this vulnerability to manipulate the system’s administrator account and gain full control over other user accounts’ information.
 ![image](https://github.com/adminininin/blob/assets/136336674/5a1744cb-e509-4d2a-972c-330d312bcafb)
-
+As shown in the screenshot, at line 154 of the source code, the parameter “id” has not been properly filtered, resulting in a SQL injection vulnerability.
 
 
 
